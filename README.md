@@ -280,14 +280,6 @@ Yapılan değerlendirmeler sonucunda **LGBM_Tuning_V3**, performans ve genelleme
 ---
 
 
-## 👨‍💻 Proje
-
-**Turkey Housing Price Prediction — 2026**
-
-Machine Learning • Regression • LightGBM • XGBoost • MLflow • Data Science
-
----
-
 GitHub:
 
 https://github.com/TolgaTopaloglu
