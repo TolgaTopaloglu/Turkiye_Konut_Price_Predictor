@@ -1,3 +1,5 @@
+> ⚠️ **Veri Seti Notu:** Bu veri seti, Türkiye'nin 2026 yılına ait gerçek dünya sosyo-ekonomik parametreleri, konut dağılımları ve demografik ağırlıkları temel alınarak sentetik olarak oluşturulmuş bir simülasyondur. Veri seti yalnızca **eğitim, makine öğrenmesi ve veri görselleştirme** amaçlarıyla hazırlanmıştır. **Resmî bir TOKİ veri seti değildir** ve gerçek TOKİ fiyatlarını veya projelerini doğrudan temsil etmemektedir.
+
 
 # 🏠 TOKİ Konut Fiyat Tahmini
 
@@ -298,17 +300,6 @@ Yapılan değerlendirmeler sonucunda **LGBM_Tuning_V3**, performans ve genelleme
 
 ---
 
-## 🚀 Gelecekte Yapılabilecek Geliştirmeler
-
-- Daha büyük ve güncel TOKİ veri setlerinin kullanılması
-- İlçe bazlı konum bilgilerinin eklenmesi
-- Konut büyüklüğü ve oda sayısı gibi özelliklerin artırılması
-- Ekonomik göstergelerin modele dahil edilmesi
-- Daha gelişmiş hiperparametre optimizasyon yöntemlerinin kullanılması
-- MLflow Model Registry kullanımının geliştirilmesi
-- Eğitilen modelin web uygulaması veya API olarak sunulması
-
----
 
 ## 👨‍💻 Proje
 
@@ -318,7 +309,4 @@ Machine Learning • Regression • LightGBM • XGBoost • MLflow • Data Sci
 
 ---
 
-GitHub:
-
-https://github.com/KullaniciAdin
 
