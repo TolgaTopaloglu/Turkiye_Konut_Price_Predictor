@@ -1,4 +1,7 @@
+
 # 🏠 TOKİ Konut Fiyat Tahmini
+
+<img width="1777" height="1147" alt="TOKI_price_frontend" src="https://github.com/user-attachments/assets/8b215290-213c-4f4f-a99f-82c494db591b" />
 
 Bu proje, **Makine Öğrenmesi** ve **Regresyon** teknikleri kullanılarak 2026 yılı Türkiye TOKİ projelerindeki konut fiyatlarının **TL cinsinden tahmin edilmesini** amaçlamaktadır.
 
