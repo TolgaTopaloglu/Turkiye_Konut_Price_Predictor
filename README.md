@@ -279,17 +279,6 @@ Yapılan değerlendirmeler sonucunda **LGBM_Tuning_V3**, performans ve genelleme
 
 ---
 
-## 🚀 Gelecekte Yapılabilecek Geliştirmeler
-
-- Daha büyük ve çeşitli konut veri setlerinin kullanılması
-- İlçe bazlı konum bilgilerinin eklenmesi
-- Konut büyüklüğü ve oda sayısı gibi özelliklerin artırılması
-- Ekonomik göstergelerin modele dahil edilmesi
-- Daha gelişmiş hiperparametre optimizasyon yöntemlerinin kullanılması
-- MLflow Model Registry kullanımının geliştirilmesi
-- Eğitilen modelin web uygulaması veya API olarak sunulması
-
----
 
 ## 👨‍💻 Proje
 
