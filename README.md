@@ -4,7 +4,6 @@ Bu proje, **Makine Öğrenmesi** ve **Regresyon** teknikleri kullanılarak 2026 
 
 Projenin geliştirme sürecinde farklı makine öğrenmesi algoritmaları, hiperparametre optimizasyonu, **log normalizasyonu** ve **MLflow Experiment Tracking** kullanılmıştır. Modeller **MAE, MSE ve R²** metrikleri üzerinden karşılaştırılmıştır.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-Machine_Learning-orange.svg)
 ![LightGBM](https://img.shields.io/badge/LightGBM-Regression-green.svg)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Regression-red.svg)
