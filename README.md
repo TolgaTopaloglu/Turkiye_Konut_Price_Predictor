@@ -1,11 +1,10 @@
-> ⚠️ **Veri Seti Notu:** Bu veri seti, Türkiye'nin 2026 yılına ait gerçek dünya sosyo-ekonomik parametreleri, konut dağılımları ve demografik ağırlıkları temel alınarak sentetik olarak oluşturulmuş bir simülasyondur. Veri seti yalnızca **eğitim, makine öğrenmesi ve veri görselleştirme** amaçlarıyla hazırlanmıştır. **Resmî bir TOKİ veri seti değildir** ve gerçek TOKİ fiyatlarını veya projelerini doğrudan temsil etmemektedir.
-
+> ⚠️ **Veri Seti Notu:** Bu veri seti, Türkiye'nin 2026 yılına ait gerçek dünya sosyo-ekonomik parametreleri, konut dağılımları ve demografik ağırlıkları temel alınarak sentetik olarak oluşturulmuş bir simülasyondur. Veri seti yalnızca **eğitim, makine öğrenmesi ve veri görselleştirme** amaçlarıyla hazırlanmıştır. Gerçek bir konut veri tabanını veya herhangi bir kurumun resmî verilerini doğrudan temsil etmemektedir.
 
 # 🏠 Türkiye Konut Fiyat Tahmini
 
-<img width="1777" height="1147" alt="TOKI_price_frontend" src="https://github.com/user-attachments/assets/8b215290-213c-4f4f-a99f-82c494db591b" />
+<img width="1777" height="1147" alt="Turkey Housing Price Prediction Frontend" src="https://github.com/user-attachments/assets/8b215290-213c-4f4f-a99f-82c494db591b" />
 
-Bu proje, **Makine Öğrenmesi** ve **Regresyon** teknikleri kullanılarak 2026 yılı Türkiye TOKİ projelerindeki konut fiyatlarının **TL cinsinden tahmin edilmesini** amaçlamaktadır.
+Bu proje, **Makine Öğrenmesi** ve **Regresyon** teknikleri kullanılarak Türkiye'deki konut fiyatlarının **TL cinsinden tahmin edilmesini** amaçlamaktadır.
 
 Projenin geliştirme sürecinde farklı makine öğrenmesi algoritmaları, hiperparametre optimizasyonu, **log normalizasyonu** ve **MLflow Experiment Tracking** kullanılmıştır. Modeller **MAE, MSE ve R²** metrikleri üzerinden karşılaştırılmıştır.
 
@@ -19,7 +18,7 @@ Projenin geliştirme sürecinde farklı makine öğrenmesi algoritmaları, hiper
 ## 🎯 Projenin Özeti
 
 - **Amaç:** Türkiye'deki konut fiyatlarını; şehir, bölge ve proje özellikleri gibi değişkenlere göre tahmin etmek.
-- **Veri Seti:** `turkiye_toki_projeleri_2026.csv` veri seti kullanılmıştır.
+- **Veri Seti:** `turkiye_konut_projeleri_2026.csv` veri seti kullanılmıştır.
 - **Veri Ön İşleme:** Veri temizleme ve modelleme öncesi gerekli dönüşümler gerçekleştirilmiştir.
 - **Feature Engineering:** Model performansını artırmak amacıyla özellik mühendisliği uygulanmıştır.
 - **Log Normalizasyonu:** Konut fiyatlarının dağılımını daha dengeli hâle getirmek amacıyla hedef değişkene log dönüşümü uygulanmıştır.
@@ -35,7 +34,7 @@ Projenin geliştirme sürecinde farklı makine öğrenmesi algoritmaları, hiper
 
 Projede aşağıdaki veri seti kullanılmıştır:
 
-`turkiye_toki_projeleri_2026.csv`
+`turkiye_konut_projeleri_2026.csv`
 
 Veri seti üzerinde modelleme öncesinde veri temizleme, kategorik değişkenlerin dönüştürülmesi ve feature engineering işlemleri gerçekleştirilmiştir.
 
@@ -58,7 +57,7 @@ Bu işlem ile fiyat değişkenindeki dağılımın daha dengeli hâle getirilmes
 
 Modelleme süreci genel olarak şu şekilde gerçekleştirilmiştir:
 
-Konut Fiyatı → Log Dönüşümü → Model Eğitimi → Tahmin → Ters Log Dönüşümü → TL Fiyatı
+**Konut Fiyatı → Log Dönüşümü → Model Eğitimi → Tahmin → Ters Log Dönüşümü → TL Fiyatı**
 
 Model tahminleri değerlendirme aşamasında tekrar orijinal fiyat ölçeğine dönüştürülerek **TL cinsinden** değerlendirilmiştir.
 
@@ -154,15 +153,15 @@ Modeller aşağıdaki metrikler üzerinden değerlendirilmiştir:
 
 ### R² Score
 
-<img width="1200" height="600" alt="_TOKI_price_r2_score" src="https://github.com/user-attachments/assets/0c26b627-535c-457b-aad9-91a5f653fa90" />
+<img width="1200" height="600" alt="Turkey Housing Price R2 Score" src="https://github.com/user-attachments/assets/0c26b627-535c-457b-aad9-91a5f653fa90" />
 
 ### MAE — Mean Absolute Error
 
-<img width="1200" height="600" alt="TOKI_price_mean_absolute_error" src="https://github.com/user-attachments/assets/26416864-8b1a-4495-ab31-bb61c4459487" />
+<img width="1200" height="600" alt="Turkey Housing Price Mean Absolute Error" src="https://github.com/user-attachments/assets/26416864-8b1a-4495-ab31-bb61c4459487" />
 
 ### MSE — Mean Squared Error
 
-<img width="1200" height="600" alt="TOKI_price_mean_squared_error" src="https://github.com/user-attachments/assets/448755e7-8a6d-497a-880c-0b9f4a384916" />
+<img width="1200" height="600" alt="Turkey Housing Price Mean Squared Error" src="https://github.com/user-attachments/assets/448755e7-8a6d-497a-880c-0b9f4a384916" />
 
 ---
 
@@ -182,11 +181,11 @@ Log normalizasyonu sonrasında tahmin sonuçları tekrar orijinal TL ölçeğine
 
 ### 1. Repoyu Klonlayın
 
-    git clone https://github.com/KullaniciAdin/TOKI-Price-Prediction.git
+    git clone https://github.com/KullaniciAdin/Turkey-Housing-Price-Prediction.git
 
 Proje klasörüne girin:
 
-    cd TOKI-Price-Prediction
+    cd Turkey-Housing-Price-Prediction
 
 ### 2. Virtual Environment Oluşturun
 
@@ -227,18 +226,18 @@ MLflow üzerinden gerçekleştirilen deneyleri, kullanılan parametreleri ve mod
 
 ## 📁 Proje Yapısı
 
-    TOKI-Price-Prediction/
+    Turkey-Housing-Price-Prediction/
     │
     ├── data/
-    │   └── turkiye_toki_projeleri_2026.csv
+    │   └── turkiye_konut_projeleri_2026.csv
     │
     ├── images/
-    │   ├── TOKI_price_r2_score.png
-    │   ├── TOKI_price_mean_absolute_error.png
-    │   └── TOKI_price_mean_squared_error.png
+    │   ├── housing_price_r2_score.png
+    │   ├── housing_price_mean_absolute_error.png
+    │   └── housing_price_mean_squared_error.png
     │
     ├── notebooks/
-    │   └── TOKI_Price_Prediction.ipynb
+    │   └── Turkey_Housing_Price_Prediction.ipynb
     │
     ├── models/
     │   └── LGBM_Tuning_V3
@@ -288,7 +287,7 @@ Tüm bağımlılıkları yüklemek için:
 
 ## 🏆 Sonuç
 
-Bu projede farklı makine öğrenmesi algoritmaları kullanılarak **TOKİ konut fiyat tahmini** gerçekleştirilmiştir.
+Bu projede farklı makine öğrenmesi algoritmaları kullanılarak **Türkiye'deki konut fiyatlarının tahmini** gerçekleştirilmiştir.
 
 Model geliştirme sürecinde **Feature Engineering, Log Normalizasyonu, Hyperparameter Tuning ve MLflow Experiment Tracking** kullanılmıştır.
 
@@ -296,17 +295,30 @@ Yapılan model karşılaştırmaları sonucunda **LightGBM tabanlı modeller** e
 
 Yapılan değerlendirmeler sonucunda **LGBM_Tuning_V3**, performans ve genelleme kabiliyeti açısından projenin nihai modeli olarak seçilmiştir.
 
-> **Not:** Model sonuçları kullanılan veri seti ile sınırlıdır. Tahminler gerçek konut fiyatlarının garantisi değildir.
+> **Not:** Model sonuçları kullanılan sentetik veri seti ile sınırlıdır. Tahminler gerçek konut fiyatlarının garantisi değildir.
 
 ---
 
+## 🚀 Gelecekte Yapılabilecek Geliştirmeler
+
+- Daha büyük ve çeşitli konut veri setlerinin kullanılması
+- İlçe bazlı konum bilgilerinin eklenmesi
+- Konut büyüklüğü ve oda sayısı gibi özelliklerin artırılması
+- Ekonomik göstergelerin modele dahil edilmesi
+- Daha gelişmiş hiperparametre optimizasyon yöntemlerinin kullanılması
+- MLflow Model Registry kullanımının geliştirilmesi
+- Eğitilen modelin web uygulaması veya API olarak sunulması
+
+---
 
 ## 👨‍💻 Proje
 
-**TOKİ Price Prediction — 2026**
+**Turkey Housing Price Prediction — 2026**
 
 Machine Learning • Regression • LightGBM • XGBoost • MLflow • Data Science
 
 ---
 
+GitHub:
 
+https://github.com/KullaniciAdin
