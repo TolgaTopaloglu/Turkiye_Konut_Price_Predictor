@@ -1,7 +1,7 @@
 > ⚠️ **Veri Seti Notu:** Bu veri seti, Türkiye'nin 2026 yılına ait gerçek dünya sosyo-ekonomik parametreleri, konut dağılımları ve demografik ağırlıkları temel alınarak sentetik olarak oluşturulmuş bir simülasyondur. Veri seti yalnızca **eğitim, makine öğrenmesi ve veri görselleştirme** amaçlarıyla hazırlanmıştır. **Resmî bir TOKİ veri seti değildir** ve gerçek TOKİ fiyatlarını veya projelerini doğrudan temsil etmemektedir.
 
 
-# 🏠 TOKİ Konut Fiyat Tahmini
+# 🏠 Türkiye Konut Fiyat Tahmini
 
 <img width="1777" height="1147" alt="TOKI_price_frontend" src="https://github.com/user-attachments/assets/8b215290-213c-4f4f-a99f-82c494db591b" />
 
@@ -18,7 +18,7 @@ Projenin geliştirme sürecinde farklı makine öğrenmesi algoritmaları, hiper
 
 ## 🎯 Projenin Özeti
 
-- **Amaç:** TOKİ konutlarının fiyatlarını farklı şehir, bölge ve proje özelliklerine göre tahmin etmek.
+- **Amaç:** Türkiye'deki konut fiyatlarını; şehir, bölge ve proje özellikleri gibi değişkenlere göre tahmin etmek.
 - **Veri Seti:** `turkiye_toki_projeleri_2026.csv` veri seti kullanılmıştır.
 - **Veri Ön İşleme:** Veri temizleme ve modelleme öncesi gerekli dönüşümler gerçekleştirilmiştir.
 - **Feature Engineering:** Model performansını artırmak amacıyla özellik mühendisliği uygulanmıştır.
