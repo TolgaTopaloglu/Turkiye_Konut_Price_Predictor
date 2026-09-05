@@ -41,7 +41,6 @@ Modelde kullanılan temel değişkenler arasında:
 - Bölge
 - Proje Tipi
 - Proje Durumu
-- Konut özellikleri
 
 gibi değişkenler bulunmaktadır.
 
