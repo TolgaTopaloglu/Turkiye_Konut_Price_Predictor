@@ -231,11 +231,6 @@ MLflow üzerinden gerçekleştirilen deneyleri, kullanılan parametreleri ve mod
     ├── data/
     │   └── turkiye_konut_projeleri_2026.csv
     │
-    ├── images/
-    │   ├── housing_price_r2_score.png
-    │   ├── housing_price_mean_absolute_error.png
-    │   └── housing_price_mean_squared_error.png
-    │
     ├── notebooks/
     │   └── Turkey_Housing_Price_Prediction.ipynb
     │
