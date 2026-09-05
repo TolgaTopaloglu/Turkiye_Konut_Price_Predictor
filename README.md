@@ -208,21 +208,6 @@ Linux / macOS:
 
 ---
 
-## ▶️ Projeyi Çalıştırma
-
-Notebook üzerinden projeyi çalıştırmak için:
-
-    jupyter notebook
-
-Ardından proje içerisindeki notebook dosyasını açarak veri işleme, log dönüşümü, model eğitimi ve model değerlendirme aşamalarını çalıştırabilirsiniz.
-
-MLflow arayüzünü başlatmak için:
-
-    mlflow ui
-
-MLflow üzerinden gerçekleştirilen deneyleri, kullanılan parametreleri ve model performanslarını görüntüleyebilirsiniz.
-
----
 
 ## 📁 Proje Yapısı
 
