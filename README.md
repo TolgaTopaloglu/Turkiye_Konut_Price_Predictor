@@ -220,11 +220,10 @@ Linux / macOS:
     │   └── Turkey_Housing_Price_Prediction.ipynb
     │
     ├── models/
-    │   └── LGBM_Tuning_V3
+    │   └── TOKI_price_regression.pkl
     │
     ├── requirements.txt
     ├── README.md
-    └── .gitignore
 
 ---
 
