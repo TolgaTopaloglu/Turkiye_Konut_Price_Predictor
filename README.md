@@ -222,8 +222,6 @@ Linux / macOS:
     ├── models/
     │   └── LGBM_Tuning_V3
     │
-    ├── mlruns/
-    │
     ├── requirements.txt
     ├── README.md
     └── .gitignore
